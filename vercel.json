@@ -1,39 +1,5 @@
 ﻿{
-  "version": 2,
   "buildCommand": "cd \"Interest based group manager\" && npm run build",
   "outputDirectory": "Interest based group manager/.next",
-  "installCommand": "cd \"Interest based group manager\" && npm install",
-  "framework": "nextjs",
-  "functions": {
-    "Interest based group manager/app/api/**/*.ts": {
-      "runtime": "nodejs18.x"
-    }
-  },
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "build": {
-    "env": {
-      "NODE_ENV": "production"
-    }
-  },
-  "headers": [
-    {
-      "source": "/api/(.*)",
-      "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        },
-        {
-          "key": "Access-Control-Allow-Methods",
-          "value": "GET, POST, PUT, DELETE, OPTIONS"
-        },
-        {
-          "key": "Access-Control-Allow-Headers",
-          "value": "Content-Type, Authorization"
-        }
-      ]
-    }
-  ]
+  "installCommand": "cd \"Interest based group manager\" && npm install"
 }
