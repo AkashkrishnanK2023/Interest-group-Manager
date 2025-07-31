@@ -1,5 +1,0 @@
-﻿{
-  "buildCommand": "cd \"Interest based group manager\" && npm run build",
-  "outputDirectory": "Interest based group manager/.next",
-  "installCommand": "cd \"Interest based group manager\" && npm install"
-}
